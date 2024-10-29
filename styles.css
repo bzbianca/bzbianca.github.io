@@ -16,16 +16,15 @@ p {
 
 }
 
-header {
-    color: #333333
-    font-fam
+header{
+    color: #ffffff;
 }
 
-header2 {
+header2{
 
 }
 
-.name {
-    color: #e02d2d
-    font-size: larger
+.name{
+    color: #e02d2d ;
+    font-size: larger;
 }
