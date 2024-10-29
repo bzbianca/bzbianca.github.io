@@ -17,7 +17,8 @@ p {
 }
 
 header {
-
+    color: #333333
+    font-fam
 }
 
 header2 {
@@ -26,6 +27,5 @@ header2 {
 
 .name {
     color: #e02d2d
-    font-family: 'Times New Roman', Times, serif
     font-size: larger
 }
