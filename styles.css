@@ -1,16 +1,22 @@
 /* Color Palette: 
 
-Light Shades: #ffffff;
+Light Shades: #F7F7F6;
 
-Light Accent: ##fc5b5b;
+Light Accent: #626866;
 
-Main Brand Color: #e02d2d;
+Main Brand Color: #96B6B4;
 
-Dark Accent: #000000;
+Dark Accent: #606062;
 
-Dark Shades: #333333;
+Dark Shades: #444B58;
 
 */
+
+body {
+    background-color: #444B58;
+    color: #ffffff;
+    font-family: Georgia, serif;
+}
 
 p {
 
@@ -24,7 +30,16 @@ header2{
 
 }
 
+img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
 .name{
-    color: #e02d2d ;
-    font-size: larger;
+    color: #ffffff ;
+    font-size: 30px;
+}
+
+.about {
 }
