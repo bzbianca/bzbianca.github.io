@@ -33,13 +33,14 @@ h3{
 }
 
 h5 {
-    color: #85b7b3
+    color: #85b7b3;
 }
 
 img {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 .name{
