@@ -4,9 +4,11 @@ Light Shades: #F7F7F6;
 
 Light Accent: #626866;
 
-Main Brand Color: #96B6B4;
+Main Brand Color: #85b7b3;
 
-Dark Accent: #606062;
+Side Brand Color: 
+
+Dark Accent: #333333;
 
 Dark Shades: #444B58;
 
@@ -19,15 +21,19 @@ body {
 }
 
 p {
-
+    color: #F7F7F6;
 }
 
-header{
+h1{
     color: #ffffff;
 }
 
-header2{
+h3{
+    color: #a1dbd7;
+}
 
+h5 {
+    color: #85b7b3
 }
 
 img {
@@ -43,13 +49,13 @@ img {
 
 .navBar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #333333;
   }
   
 .navBar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #a1dbd7;
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
@@ -62,8 +68,8 @@ img {
 
 .column {
     float: left;
-    width: 33.33%;
-    background-color: #333;
+    width: 33.2%;
+    background-color: #333333;
     margin: .5px
 }
 
