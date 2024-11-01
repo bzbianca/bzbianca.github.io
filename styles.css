@@ -47,6 +47,10 @@ img {
     font-size: 30px;
 }
 
+#subtopic {
+    color : #85b7b3 !important
+}
+
 .navBar {
     overflow: hidden;
     background-color: #333333;
