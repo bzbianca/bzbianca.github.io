@@ -63,6 +63,8 @@ img {
 .column {
     float: left;
     width: 33.33%;
+    background-color: #333;
+    margin: .5px
 }
 
 .row:after {
@@ -76,9 +78,4 @@ img {
     .column {
         width: 100%;
     }
-}
-
-.card {
-    border: 30px
-    color: white
 }
