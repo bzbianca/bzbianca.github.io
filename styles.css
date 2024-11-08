@@ -103,7 +103,6 @@ img {
     padding: 1px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .box {
@@ -114,6 +113,13 @@ img {
     margin: 10px;
     width: 100%;
     flex-grow: 5;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
 }
 
 .box2 {
