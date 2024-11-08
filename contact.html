@@ -2,9 +2,40 @@
 <html>
     <head>
         <title>Contact Me</title>
-        <link rel=“stylesheet” href=./styles.css”> 
+        <link rel="stylesheet" href=".\styles.css"> 
     </head>
-    <header><strong>Contact Information</strong></header>
-    <p>School Email: bzbaccay@my.waketech.edu</p>
-    <p>Personal Email: bzbaccay27@gmail.com</p>
-</html>
+    <body>
+        <section class="container">
+            <header><strong>Contact Information</strong></header>
+            <br> <br>
+            <p>School Email: bzbaccay@my.waketech.edu</p>
+            <p>Personal Email: bzbaccay27@gmail.com</p>
+        </section>
+
+        <section id="form">
+            <h1>Contact Form</h1>
+            <label for="name">Name:</label> <br>
+            <input class=input-field type="text" id="name" name="name" required>
+            <br> <br>
+            <label for="email">Email:</label> <br>
+            <input class="input-field" type="text" id="email" name="email" required>
+            <br> <br>
+            <label for="phonenumber">Phone number:</label> <br>
+            <input class="input-field" id="phonenumber" name="phonenumber" type="number" value="(+1)" required  minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <br> <br> <br>
+            <heading id="leaveamessage">Leave a message:</heading>
+            <br> <br>
+            <input type="radio" id="Question" value="Question">
+            <label for="Question">Question</label> 
+            <input type="radio" id="Comment" value="Comment">
+            <label for="Comment">Comment</label> 
+            <input type="radio" id="Suggestion" value="Suggestion">
+            <label for="Suggestion">Suggestion</label>
+            <br> <br>
+            <label for="message">Message:</label> <br>
+            <textarea class="input-field" type="text" id="message" name="message"></textarea>
+            <br> <br>
+            <input type="submit" class="button">
+        </section>
+    </body> 
+    </html>
