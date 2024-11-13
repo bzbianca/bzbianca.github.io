@@ -26,7 +26,6 @@ p {
 
 h1{
     color: #ffffff;
-    font-size: 1.5vw
 }
 
 h3{
@@ -37,15 +36,12 @@ h5 {
     color: #85b7b3;
 }
 
-li {
-    font-size: 1vw;
-}
 
 img {
     display: inline-block;
     border-radius: 50%;
-    width: 6%;
-    height: 6%;
+    width: 10%;
+    height: 10%;
 }
 
 .name{
@@ -103,6 +99,7 @@ img {
     padding: 1px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -111,8 +108,8 @@ img {
     color: #ffffff;
     padding: 5px;
     margin: 10px;
-    width: 100%;
-    flex-grow: 5;
+    width: 93%;
+    flex-grow: 1;
     flex-direction: row;
 }
 
@@ -128,8 +125,8 @@ img {
     color: #ffffff;
     padding: 5px;
     margin: 10px;
-    width: 100%;
-    flex-grow: 5;
+    width: 93%;
+    flex-grow: 1;
 }
 
 .fourth {
@@ -137,32 +134,43 @@ img {
     background-color: #626866;
     padding: 5px;
     margin: 10px;
-    width: 500%;
+    width: 93%;
+}
+
+#interests {
+    border-radius: 25px;
+    background-color: #626866;
+    color: #ffffff;
+    padding: 10px;
+    margin: 15px;
+    width: 88%;
+    flex-grow: 1;
 }
 
 #form {
     border-radius: 25px;
     background-color: #333333;
     padding: 20px;
-    margin: 10px;
-    width: 25%;
+    margin: 1%;
+    width: 90%;
     flex-grow: 5;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #leaveamessage {
-    font-size: 1vw;
+    font-size: 90%;
 }
 
 label {
-    font-size: 1vw;
+    font-size: 90%;
 }
 
 .button {
     background-color: #85b7b3;
     color: white;
-    padding: 1.5% 3%;
+    padding: 2% 4%;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -174,7 +182,7 @@ label {
 }
 
 .input-field {
-    padding: 2%;
+    padding: 1%;
     border: 1% solid #ccc;
     border-radius: 4px;
 }

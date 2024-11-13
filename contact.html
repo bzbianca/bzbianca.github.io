@@ -3,46 +3,49 @@
     <head>
         <title>Contact Me</title>
         <link rel="stylesheet" href=".\styles.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <nav>
             <ul class="navBar">
-                <a style="font-size:1.5vw" class="navLink" href="https://bzbianca.github.io/index.html"><h3>Home</h3></a></li>
-                <a style="background-color:#626866" style="font-size:1.5vw" class="navLink" href="https://bzbianca.github.io/contact.html"><h3>Contact</h3></a></li>
-                <a style="font-size:1.5vw" class="navLink" href="https://www.linkedin.com/in/bianca-baccay-1242852b0/"><h3>Linkedin</h3></a></li>
-                <a style="font-size:1.5vw" class="navLink" href="https://bzbianca.github.io/interests.html"><h3>Interests</h3></a></li>
+                <a class="navLink" href="https://bzbianca.github.io/index.html"><h3>Home</h3></a></li>
+                <a style="background-color:#626866" class="navLink" href="https://bzbianca.github.io/contact.html"><h3>Contact</h3></a></li>
+                <a class="navLink" href="https://www.linkedin.com/in/bianca-baccay-1242852b0/"><h3>Linkedin</h3></a></li>
+                <a class="navLink" href="https://bzbianca.github.io/interests.html"><h3>Interests</h3></a></li>
             </ul>
         </nav> 
         <section id="form">
             <h1><strong>Contact Information</strong></h1>
-            <p style="font-size:1.2vw">School Email: bzbaccay@my.waketech.edu</p>
-            <p style="font-size:1.2vw">Personal Email: bzbaccay27@gmail.com</p>
+            <p >School Email: bzbaccay@my.waketech.edu</p>
+            <p >Personal Email: bzbaccay27@gmail.com</p>
         </section>
 
         <section id="form">
-            <h1>Contact Form</h1>
-            <label for="name">Name:</label> <br>
-            <input class=input-field type="text" id="name" name="name" required>
-            <br> <br>
-            <label for="email">Email:</label> <br>
-            <input class="input-field" type="text" id="email" name="email" required>
-            <br> <br>
-            <label for="phonenumber">Phone number:</label> <br>
-            <input class="input-field" id="phonenumber" name="phonenumber" type="number" value="(+1)" required  minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-            <br> <br> <br>
-            <heading id="leaveamessage">Leave a message:</heading>
-            <br> <br>
-            <input type="radio" id="Question" value="Question">
-            <label for="Question">Question</label> 
-            <input type="radio" id="Comment" value="Comment">
-            <label for="Comment">Comment</label> 
-            <input type="radio" id="Suggestion" value="Suggestion">
-            <label for="Suggestion">Suggestion</label>
-            <br> <br>
-            <label for="message">Message:</label> <br>
-            <textarea class="input-field" type="text" id="message" name="message"></textarea>
-            <br> <br>
-            <input style="font-size:1vw" type="submit" class="button">
+            <form action="#" method="POST">
+                <h1>Contact Form</h1>
+                <label for="name">Name:</label> <br>
+                <input class="input-field" type="text" id="name" name="name" required>
+                <br> <br>
+                <label for="email">Email:</label> <br>
+                <input class="input-field" type="email" id="email" name="email" required>
+                <br> <br>
+                <label for="phonenumber">Phone number:</label> <br>
+                <input class="input-field" id="phonenumber" name="phonenumber" type="tel" value="(+1)" required  minlength="15" maxlength="15" pattern="(+1)[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <br> <br> <br>
+                <heading id="leaveamessage">Leave a message (Optional):</heading>
+                <br> <br>
+                <input type="radio" id="Question" value="Question">
+                <label for="Question">Question</label> 
+                <input type="radio" id="Comment" value="Comment">
+                <label for="Comment">Comment</label> 
+                <input type="radio" id="Suggestion" value="Suggestion">
+                <label for="Suggestion">Suggestion</label>
+                <br> <br>
+                <label for="message">Message (Optional):</label> <br>
+                <textarea class="input-field" type="text" id="message" name="message"></textarea>
+                <br> <br>
+                <input type="submit" class="button">
+            </form>
         </section>
     </body> 
     </html>
