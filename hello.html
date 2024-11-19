@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <style>
+            label{
+                display:block;
+            }
+        </style>
+        <link rel="stylesheet" href=".\styles.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <body>
+        
+            <nav>
+                <ul class="navBar">
+                    <a class="navLink" href="https://bzbianca.github.io/index.html"><h3>Home</h3></a></li>
+                    <a class="navLink" href="https://bzbianca.github.io/contact.html"><h3>Contact</h3></a></li>
+                    <a class="navLink" href="https://www.linkedin.com/in/bianca-baccay-1242852b0/"><h3>Linkedin</h3></a></li>
+                    <a class="navLink" href="https://bzbianca.github.io/interests.html"><h3>Interests</h3></a></li>
+                    <a style="background-color:#626866" class="navLink" href="https://bzbianca.github.io/hello.html"><h3>PyScript</h3></a></li>
+                </ul>
+            </nav> 
+            <form>
+                <label for="operandOne">x:</label><input name="operandOne" id="operandOne" value="10">
+
+                <label for="total">Result:</label><div name="total" id="total"></div>
+            </form>
+            <py-script>
+                input_box = Element("operandOne")
+                operandOne = float(input_box.value)
+                result = Element("total")
+                result.write("Hello! The input says:" + str(operandOne))
+            </py-script>
+        </body>
+    </head>
+</html>
+
+
